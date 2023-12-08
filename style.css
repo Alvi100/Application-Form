@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e6dacc;
+    color: #83553b;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.head{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+input, select{
+    min-width: 50px;
+    background-color: #f3ebe0;
+    outline: none;
+    border: 0.5px solid #83553b;
+    
+}
+
+select{
+    min-width: 44%;
+}
+label{
+    margin-left: 10px;
+}
+
+
+#first-name, #last-name{
+    display: inline-block;
+    width: 43%;
+    height: 30px;
+    margin: 0 10px ;
+}
+
+#address{
+    display: block;
+    width: 93%;
+    height: 30px;
+    margin: 5px 10px;
+}
+
+#city, #region, #post-code, #country{
+    display: inline-block;
+    width: 43%;
+    height: 30px;
+    margin: 5px 10px ;
+    
+}
+
+#phone, #email{
+    display: inline-block;
+    width: 43%;
+    height: 30px;
+    margin: 0 10px ;
+}
+
+#mail{
+    margin-left: 132px;
+}
+
+#dob,#school{
+    display: block;
+    width: 93%;
+    height: 30px;
+    margin: 0 10px ;
+}
+
+#school{
+    background-color: #ffffff;
+}
+
+#sure{
+    margin: 20px auto;
+}
+
+#sure input{
+    
+    width: 20px;
+}
+
+.sub{
+    padding: 10px 20px;
+    margin:20px auto;
+    text-align: left;
+    font-weight:bold ;
+    display: block;
+    border-radius:10px ;
+    background-color:#83553b ;
+    color:#ffff;
+    outline: none;
+    border: 1px solid black;
+}
